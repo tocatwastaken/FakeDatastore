@@ -1,0 +1,17 @@
+{
+  "name": "fakedatastore",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "CATBLOX Softworks",
+  "license": "ISC",
+  "description": "A tool to emulate DataStoreService on older ROBLOX clients and custom launchers (e.g. Novetus, ORRH and RBLXHUB)",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
