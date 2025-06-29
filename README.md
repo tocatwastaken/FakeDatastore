@@ -14,4 +14,5 @@ To use the provided ModuleScript, do the following:
  - Import it into ROBLOX studio.
  - Put it somewhere your script can access.
  - Do `require(path.to.the.script)` in place of `game:GetService("DataStoreService")`
+ - Go into the module and edit the backend url to wherever your backend is running at (if it's running on the machine that's hosting, just use the url it spits out when it starts)
  - Just like that, it should work!
