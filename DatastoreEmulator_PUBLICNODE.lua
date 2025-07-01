@@ -1,13 +1,11 @@
 --THIS IS ONLY TO BE USED IF YOU WANT TO CONNECT TO THE PUBLIC NODE.
 --IF YOU WANT TO USE YOUR OWN NODE, SEE DatastoreEmulator.lua
-
---**WARNING WARNING WARNING** As of 6/30/2025, The public node has been shut down. This script is just here for archival purposes.
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local DatastoreService = {}
 DatastoreService.__index = DatastoreService
-local BACKEND_URL = "https://datastore.tocat.xyz"
+local BACKEND_URL = "http://gameserver.tocat.xyz:7582"
 local ACCESSKEY = "" -- Don't have an access key or don't wanna get one? Set this to 'public'.
 --  				 Note: This is very insecure and will likely lead to your datastores being leaked. Don't use it for important stuff, as ANYONE can read/set data.
 --           DM tocatwastaken on discord to request an access key for your own personal seperated datastore node.
